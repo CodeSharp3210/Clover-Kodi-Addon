@@ -1,7 +1,7 @@
-# Kodi-RPC
-A Kodi Addon to show other your Kodi activity. Developed By CodeSharp
+# Clover-Kodi-Addon
+A Kodi Addon to show other your Kodi activity in Discord with other tools like Cache and Logs Cleaner. Developed By CodeSharp
 
-To use this addon, you need to follow these steps:
+To use the addon for RPC, you need to follow these steps:
 
 WARNING: To use this addon, you must be on the same connection between the Kodi Client and the Discord bridge server.
 
@@ -13,7 +13,7 @@ Next, also run this command: > pip install flask3
 
 3) Run discord_bridge.py on your computer with Discord open.
 
-4) Extract the files from the kodi.service.discordrpc zip and copy the contents into the Kodi addons directory (I don't know why, but installing the zip using the method proposed by Kodi gives an error about the file structure).
+4) Open Kodi and install the addon by .zip method
 
 5) Enable the addon through Kodi's settings, and if you have correctly followed these steps, you should see requests coming in every 2 seconds in the discord_bridge.py terminal. This is normal, don’t worry. It means the addon is working correctly.
 
